@@ -10,7 +10,9 @@
       "updated": "2026-10-21",
       "items": [
         {
-          "nums": [1],
+          "nums": [
+            1
+          ],
           "title": "Course Syllabi",
           "due": "Oct",
           "status": "not-started",
@@ -27,7 +29,9 @@
           "evidence": []
         },
         {
-          "nums": [2],
+          "nums": [
+            2
+          ],
           "title": "Pacing Guides",
           "due": "Oct",
           "status": "not-started",
@@ -42,7 +46,9 @@
           "evidence": []
         },
         {
-          "nums": [3],
+          "nums": [
+            3
+          ],
           "title": "FBLA Student Activities",
           "due": "Oct",
           "status": "not-started",
@@ -59,7 +65,9 @@
           "evidence": []
         },
         {
-          "nums": [4],
+          "nums": [
+            4
+          ],
           "title": "Short-Term Projects",
           "due": "Nov / Dec",
           "status": "not-started",
@@ -75,7 +83,9 @@
           "evidence": []
         },
         {
-          "nums": [5],
+          "nums": [
+            5
+          ],
           "title": "Long-Term Team Application Project",
           "due": "Oct (approval), then monthly updates",
           "status": "not-started",
@@ -95,7 +105,9 @@
           "evidence": []
         },
         {
-          "nums": [6],
+          "nums": [
+            6
+          ],
           "title": "On-Site Long-Term Project Presentation",
           "due": "On-site visit",
           "status": "not-started",
@@ -120,9 +132,11 @@
       "updated": "2026-10-21",
       "items": [
         {
-          "nums": [7],
+          "nums": [
+            7
+          ],
           "title": "School Demographics",
-          "status": "not-started",
+          "status": "in-progress",
           "scope": "Get from guidance. Present as charts.",
           "requirements": [
             "Enrollment by ethnicity",
@@ -131,11 +145,19 @@
             "Free / reduced lunch",
             "CCRPI"
           ],
-          "tables": ["demographics-ethnicity", "demographics-gender", "demographics-grade", "demographics-other"],
+          "tables": [
+            "demographics-ethnicity",
+            "demographics-gender",
+            "demographics-grade",
+            "demographics-other"
+          ],
           "evidence": []
         },
         {
-          "nums": [8, 9],
+          "nums": [
+            8,
+            9
+          ],
           "title": "Program Offerings, Pathway Completers & Credentials",
           "due": "Feb",
           "status": "not-started",
@@ -146,13 +168,18 @@
             "Number of pathway completers",
             "Industry-recognized credentials (EOPA) attempted / earned per pathway"
           ],
-          "tables": ["offerings-2025-26", "offerings-2026-27"],
+          "tables": [
+            "offerings-2025-26",
+            "offerings-2026-27"
+          ],
           "evidence": []
         },
         {
-          "nums": [10],
+          "nums": [
+            10
+          ],
           "title": "Program Recruitment Practices",
-          "status": "not-started",
+          "status": "in-progress",
           "scope": "Mission statement and pathways are shown on the Program page; publicity evidence goes here.",
           "requirements": [
             "Program mission statement",
@@ -161,11 +188,21 @@
             "Involvement and outreach with local organizations",
             "Evidence of publicity (newspapers, school website, newsletters, displays, open house, middle school tours, Chamber, Rotary, SHRM)"
           ],
-          "tables": ["recruitment"],
-          "evidence": []
+          "tables": [
+            "recruitment"
+          ],
+          "evidence": [
+            {
+              "title": "Program page: pathways, courses, careers, and district programs",
+              "href": "program.html",
+              "caption": "Mission statement and FBLA recruitment details still to be added."
+            }
+          ]
         },
         {
-          "nums": [11],
+          "nums": [
+            11
+          ],
           "title": "Teacher Certification",
           "status": "not-started",
           "scope": "Clear, renewable certificate in Business Education and/or Computer Science for every BCS teacher. CS course teachers need CS certification. Program score = lowest tier among its teachers.",
@@ -178,7 +215,9 @@
           "evidence": []
         },
         {
-          "nums": [12],
+          "nums": [
+            12
+          ],
           "title": "Daily Schedules & Responsibilities",
           "status": "not-started",
           "scope": "Per teacher, 1st and 2nd semester.",
@@ -189,11 +228,16 @@
             "Other school duties (department chair, club sponsor, coach, leadership)",
             "Statement that all teachers work with FBLA"
           ],
-          "tables": ["teacher-schedules"],
+          "tables": [
+            "teacher-schedules"
+          ],
           "evidence": []
         },
         {
-          "nums": [13, 14],
+          "nums": [
+            13,
+            14
+          ],
           "title": "Teacher Professional Affiliations",
           "status": "not-started",
           "scope": "Copy of current membership card or letter with membership date visible. A chart alone does not count.",
@@ -206,7 +250,9 @@
           "evidence": []
         },
         {
-          "nums": [15],
+          "nums": [
+            15
+          ],
           "title": "Teacher Professional Development",
           "status": "not-started",
           "scope": "20 hours per teacher related to BCS standards. 8 of the 20 must be a job shadow at a company (not a school), a different company per teacher.",
@@ -215,12 +261,16 @@
             "Not collaboration, team, or planning meetings",
             "Job shadow letter on company letterhead, signed and dated by the employee shadowed"
           ],
-          "tables": ["professional-development"],
+          "tables": [
+            "professional-development"
+          ],
           "groupBy": "teacher",
           "evidence": []
         },
         {
-          "nums": [16],
+          "nums": [
+            16
+          ],
           "title": "Teacher Presentation at On-Site Visit",
           "due": "On-site visit",
           "status": "not-started",
@@ -234,7 +284,9 @@
           "evidence": []
         },
         {
-          "nums": [17],
+          "nums": [
+            17
+          ],
           "title": "Chamber of Commerce Events (Bonus)",
           "status": "not-started",
           "bonus": true,
@@ -257,7 +309,10 @@
       "updated": "2026-10-21",
       "items": [
         {
-          "nums": [18, 19],
+          "nums": [
+            18,
+            19
+          ],
           "title": "Advisory Committee Composition",
           "status": "not-started",
           "scope": "At least 51% from business and industry related to BCS. Officers marked on the roster.",
@@ -270,11 +325,16 @@
             "All BCS teachers",
             "Officers: 2 co-chairs (1 business teacher, 1 business/industry) and a secretary (business teacher)"
           ],
-          "tables": ["advisory-business", "advisory-education"],
+          "tables": [
+            "advisory-business",
+            "advisory-education"
+          ],
           "evidence": []
         },
         {
-          "nums": [20],
+          "nums": [
+            20
+          ],
           "title": "Communication with Advisory Committee",
           "status": "not-started",
           "scope": "At least 2 per year. Meeting invitations do not count. Only 1 new-member solicitation counts.",
@@ -283,11 +343,16 @@
             "Requests for input / feedback",
             "Sharing survey results (counts)"
           ],
-          "tables": ["advisory-communication"],
+          "tables": [
+            "advisory-communication"
+          ],
           "evidence": []
         },
         {
-          "nums": [21, 22],
+          "nums": [
+            21,
+            22
+          ],
           "title": "Program Needs Assessment (Survey)",
           "due": "Oct (survey copy)",
           "status": "not-started",
@@ -299,11 +364,16 @@
             "Topics: entry-level positions, employment tests used, technical skills, software, soft skills",
             "Results shared with committee (email and minutes)"
           ],
-          "tables": ["survey-summary", "survey-results"],
+          "tables": [
+            "survey-summary",
+            "survey-results"
+          ],
           "evidence": []
         },
         {
-          "nums": [23],
+          "nums": [
+            23
+          ],
           "title": "Advisory Committee Meetings",
           "status": "not-started",
           "scope": "2 per year. Agenda and minutes in standard format with attendance. Notes under an agenda are not minutes.",
@@ -316,24 +386,32 @@
           "evidence": []
         },
         {
-          "nums": [24],
+          "nums": [
+            24
+          ],
           "title": "Committee Activities",
           "status": "not-started",
           "scope": "3 per year.",
           "requirements": [
             "Activity, date, committee member involved, audience"
           ],
-          "tables": ["committee-activities"],
+          "tables": [
+            "committee-activities"
+          ],
           "evidence": []
         },
         {
-          "nums": [25],
+          "nums": [
+            25
+          ],
           "title": "Community Involvement",
           "status": "not-started",
           "requirements": [
             "Activity, teacher involved, number of students involved"
           ],
-          "tables": ["community-involvement"],
+          "tables": [
+            "community-involvement"
+          ],
           "evidence": []
         }
       ]
@@ -347,7 +425,9 @@
       "updated": "2026-10-21",
       "items": [
         {
-          "nums": [26],
+          "nums": [
+            26
+          ],
           "title": "Employability Skills Activities",
           "status": "not-started",
           "maxPoints": 2,
@@ -361,7 +441,9 @@
           "evidence": []
         },
         {
-          "nums": [27],
+          "nums": [
+            27
+          ],
           "title": "Presentation Skills",
           "status": "not-started",
           "scope": "Per course/period, each semester.",
@@ -369,12 +451,16 @@
             "Chart: topic, number of students presenting, type of visual aid",
             "One labeled picture of a student presenting per course (period, class, presentation name)"
           ],
-          "tables": ["presentations"],
+          "tables": [
+            "presentations"
+          ],
           "groupBy": "course",
           "evidence": []
         },
         {
-          "nums": [28],
+          "nums": [
+            28
+          ],
           "title": "Career Development Activities",
           "status": "not-started",
           "maxPoints": 1,
@@ -399,7 +485,9 @@
       "updated": "2026-10-21",
       "items": [
         {
-          "nums": [29],
+          "nums": [
+            29
+          ],
           "title": "Classroom Appearance",
           "status": "not-started",
           "scope": "Several labeled pictures of each classroom.",
@@ -412,25 +500,40 @@
           "evidence": []
         },
         {
-          "nums": [30],
+          "nums": [
+            30
+          ],
           "title": "Program Budget",
           "status": "not-started",
           "scope": "Annual local BCS budget, per teacher if applicable.",
-          "requirements": ["Money received", "Items purchased"],
-          "tables": ["budget"],
+          "requirements": [
+            "Money received",
+            "Items purchased"
+          ],
+          "tables": [
+            "budget"
+          ],
           "evidence": []
         },
         {
-          "nums": [31],
+          "nums": [
+            31
+          ],
           "title": "Equipment Replacement Plan",
           "status": "not-started",
           "scope": "Replacement schedule for each BCS classroom (from CTAE director or technology staff).",
-          "requirements": ["Replacement schedule per classroom"],
-          "tables": ["replacement-plan"],
+          "requirements": [
+            "Replacement schedule per classroom"
+          ],
+          "tables": [
+            "replacement-plan"
+          ],
           "evidence": []
         },
         {
-          "nums": [32],
+          "nums": [
+            32
+          ],
           "title": "Equipment & Software per Classroom",
           "status": "not-started",
           "requirements": [
@@ -439,20 +542,30 @@
             "Projection screen or interactive whiteboard",
             "All software and any other teaching equipment"
           ],
-          "tables": ["equipment"],
+          "tables": [
+            "equipment"
+          ],
           "evidence": []
         },
         {
-          "nums": [33],
+          "nums": [
+            33
+          ],
           "title": "Shared Equipment",
           "status": "not-started",
           "scope": "List shared department equipment, or post a statement that none is shared.",
-          "requirements": ["List or statement"],
-          "tables": ["shared-equipment"],
+          "requirements": [
+            "List or statement"
+          ],
+          "tables": [
+            "shared-equipment"
+          ],
           "evidence": []
         },
         {
-          "nums": [34],
+          "nums": [
+            34
+          ],
           "title": "Computer & Printer Specifications",
           "status": "not-started",
           "requirements": [
@@ -460,16 +573,24 @@
             "Software type / version",
             "Printers (make, model)"
           ],
-          "tables": ["computer-specs"],
+          "tables": [
+            "computer-specs"
+          ],
           "evidence": []
         },
         {
-          "nums": [35],
+          "nums": [
+            35
+          ],
           "title": "Industry Certification Grant Funds",
           "status": "not-started",
           "scope": "All grant funds accounted for by the on-site visit. Funds cannot be used for FBLA items.",
-          "requirements": ["Vendor, item, price, running balance"],
-          "tables": ["grant-funds"],
+          "requirements": [
+            "Vendor, item, price, running balance"
+          ],
+          "tables": [
+            "grant-funds"
+          ],
           "evidence": []
         }
       ]
@@ -483,7 +604,9 @@
       "updated": "2026-10-21",
       "items": [
         {
-          "nums": [36],
+          "nums": [
+            36
+          ],
           "title": "Chapter Program of Work",
           "status": "not-started",
           "scope": "The chapter's own POW (not the DOE POW). Signed by chapter president, secretary, and adviser.",
@@ -495,42 +618,74 @@
             "Month-by-month table (Aug to May) with activities and goal numbers",
             "Region, State, and National conferences with dates"
           ],
-          "tables": ["pow-months"],
+          "tables": [
+            "pow-months"
+          ],
           "evidence": []
         },
         {
-          "nums": [37],
+          "nums": [
+            37
+          ],
           "title": "Monthly Chapter Meetings",
           "status": "not-started",
           "scope": "Minimum 5, virtual or face-to-face.",
-          "requirements": ["Detailed agenda", "Sign-in of attendees"],
-          "tables": ["chapter-meetings"],
+          "requirements": [
+            "Detailed agenda",
+            "Sign-in of attendees"
+          ],
+          "tables": [
+            "chapter-meetings"
+          ],
           "evidence": []
         },
         {
-          "nums": [38],
+          "nums": [
+            38
+          ],
           "title": "Elected Government Official Speaker",
           "status": "not-started",
           "scope": "Local, state, or national official (not an FBLA officer) at an FBLA meeting.",
-          "requirements": ["Photo with name, office, and meeting date"],
+          "requirements": [
+            "Photo with name, office, and meeting date"
+          ],
           "evidence": []
         },
         {
-          "nums": [39],
+          "nums": [
+            39
+          ],
           "title": "Community Service Project",
           "status": "not-started",
-          "requirements": ["Project name", "Organization assisted", "Dates", "Photos showing involvement"],
+          "requirements": [
+            "Project name",
+            "Organization assisted",
+            "Dates",
+            "Photos showing involvement"
+          ],
           "evidence": []
         },
         {
-          "nums": [40],
+          "nums": [
+            40
+          ],
           "title": "School Service Project",
           "status": "not-started",
-          "requirements": ["School activity/event assisted", "Dates", "Photos"],
+          "requirements": [
+            "School activity/event assisted",
+            "Dates",
+            "Photos"
+          ],
           "evidence": []
         },
         {
-          "nums": [41, 42, 43, 44, 45],
+          "nums": [
+            41,
+            42,
+            43,
+            44,
+            45
+          ],
           "title": "Region, State & National Participation",
           "status": "not-started",
           "scope": "Advisers and at least 3 students must attend in person. Registration copy (from Blue Panda) for each.",
@@ -541,44 +696,65 @@
             "State Leadership Conference (at least 1 competitive event)",
             "National Leadership Conference, if applicable"
           ],
-          "tables": ["conferences"],
+          "tables": [
+            "conferences"
+          ],
           "evidence": []
         },
         {
-          "nums": [46],
+          "nums": [
+            46
+          ],
           "title": "Membership Percentage",
           "status": "not-started",
           "maxPoints": 3,
           "scope": "FBLA members / students in all BCS classes (non-duplicated). Up to 10% = 1 pt; 10.1 to 25% = 2 pts; 25.1% or more = 3 pts.",
-          "requirements": ["FBLA national roster from CONNECT", "BCS enrollment count"],
+          "requirements": [
+            "FBLA national roster from CONNECT",
+            "BCS enrollment count"
+          ],
           "membership": true,
           "evidence": []
         },
         {
-          "nums": [47],
+          "nums": [
+            47
+          ],
           "title": "Business Achievement Awards",
           "status": "not-started",
           "scope": "10% of membership earning BAAs this year (round up). Do not post a spreadsheet of activities.",
-          "requirements": ["Completed BAA certificate copies", "Statement from the FBLA national office"],
+          "requirements": [
+            "Completed BAA certificate copies",
+            "Statement from the FBLA national office"
+          ],
           "evidence": []
         },
         {
-          "nums": [48],
+          "nums": [
+            48
+          ],
           "title": "Officer Presentation",
           "due": "On-site visit",
           "status": "not-started",
           "scope": "3 to 5 actively involved students, student-developed, FBLA professional dress.",
-          "requirements": ["FBLA events, activities, and involvement", "Practice before the visit"],
+          "requirements": [
+            "FBLA events, activities, and involvement",
+            "Practice before the visit"
+          ],
           "evidence": []
         },
         {
-          "nums": [49],
+          "nums": [
+            49
+          ],
           "title": "FBLA Points (Bonus)",
           "status": "not-started",
           "bonus": true,
           "maxPoints": 4,
           "scope": "Region Officer = 1; State Officer = 3; or Chapter of the Year: Bronze 1, Silver 2, Gold 3, Superior 4.",
-          "requirements": ["Picture with officer title, or picture of COY plaque"],
+          "requirements": [
+            "Picture with officer title, or picture of COY plaque"
+          ],
           "evidence": []
         }
       ]

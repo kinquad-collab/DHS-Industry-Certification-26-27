@@ -210,3 +210,17 @@ td.empty { text-align: center; }
   .site-header, .site-nav, .toc, .site-footer, .evidence-pdf details { display: none; }
   .item { break-inside: avoid; }
 }
+
+/* ---------- Program page ---------- */
+
+.pathway h4 { font-size: .95rem; margin: 1rem 0 .35rem; }
+.course-list { margin: 0; padding-left: 1.3rem; }
+.course-num { font-size: .78rem; color: var(--muted); font-variant-numeric: tabular-nums; }
+.careers { font-size: .92rem; margin: 0; }
+.verify-note { font-size: .85rem; color: var(--warn); }
+
+.profile { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: .75rem; margin: 0 0 1rem; }
+.profile div { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: .6rem .85rem; }
+.profile dt { font-size: .78rem; text-transform: uppercase; letter-spacing: .06em; color: var(--muted); font-weight: 700; }
+.profile dd { margin: .15rem 0 0; font-weight: 600; color: var(--navy); }
+.source { display: block; font-size: .78rem; font-weight: 400; color: var(--muted); }

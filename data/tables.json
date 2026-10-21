@@ -1,175 +1,581 @@
 {
   "_help": "Each table: title, columns, rows (array of arrays, same order as columns), optional note, optional chart { type: bar | pie | doughnut, label: column index, values: [column indexes] }. Charts draw only when rows exist and the value columns are numbers.",
-
   "demographics-ethnicity": {
     "title": "Enrollment by Ethnicity",
-    "columns": ["Ethnicity", "Students"],
-    "rows": [],
-    "chart": { "type": "doughnut", "label": 0, "values": [1] }
+    "columns": [
+      "Ethnicity",
+      "Percent of Enrollment"
+    ],
+    "rows": [
+      [
+        "Asian",
+        "37.9"
+      ],
+      [
+        "White",
+        "32.0"
+      ],
+      [
+        "Hispanic / Latino",
+        "18.6"
+      ],
+      [
+        "Black / African American",
+        "8.2"
+      ],
+      [
+        "Two or more races",
+        "2.8"
+      ],
+      [
+        "American Indian / Alaska Native",
+        "0.4"
+      ],
+      [
+        "Native Hawaiian / Pacific Islander",
+        "0.0"
+      ]
+    ],
+    "chart": {
+      "type": "doughnut",
+      "label": 0,
+      "values": [
+        1
+      ]
+    },
+    "note": "Source: NCES Common Core of Data, 2024-25 (enrollment 2,527). To be replaced with 2026-27 figures from DHS guidance."
   },
   "demographics-gender": {
     "title": "Enrollment by Gender",
-    "columns": ["Gender", "Students"],
+    "columns": [
+      "Gender",
+      "Students"
+    ],
     "rows": [],
-    "chart": { "type": "pie", "label": 0, "values": [1] }
+    "chart": {
+      "type": "pie",
+      "label": 0,
+      "values": [
+        1
+      ]
+    },
+    "note": "Pending: 2026-27 figures from DHS guidance."
   },
   "demographics-grade": {
     "title": "Enrollment by Grade Level",
-    "columns": ["Grade", "Students"],
+    "columns": [
+      "Grade",
+      "Students"
+    ],
     "rows": [],
-    "chart": { "type": "bar", "label": 0, "values": [1] }
+    "chart": {
+      "type": "bar",
+      "label": 0,
+      "values": [
+        1
+      ]
+    },
+    "note": "Pending: 2026-27 figures from DHS guidance."
   },
   "demographics-other": {
     "title": "Free / Reduced Lunch & CCRPI",
-    "columns": ["Measure", "Value"],
-    "rows": []
+    "columns": [
+      "Measure",
+      "Value"
+    ],
+    "rows": [
+      [
+        "Total enrollment",
+        "2,527 (NCES CCD 2024-25)"
+      ],
+      [
+        "Free / reduced lunch",
+        "Pending: DHS guidance"
+      ],
+      [
+        "CCRPI",
+        "Pending: GaDOE / GOSA report card"
+      ]
+    ]
   },
-
   "offerings-2025-26": {
     "title": "Program Offerings 2025-26",
-    "columns": ["Pathway", "Course", "Enrollment", "Pathway Completers", "Credentials Attempted / Earned"],
+    "columns": [
+      "Pathway",
+      "Course",
+      "Enrollment",
+      "Pathway Completers",
+      "Credentials Attempted / Earned"
+    ],
     "rows": []
   },
   "offerings-2026-27": {
     "title": "Program Offerings 2026-27",
-    "columns": ["Pathway", "Course", "Enrollment", "Pathway Completers", "Credentials Attempted / Earned"],
-    "rows": [],
-    "note": "* = predicted / estimated"
+    "columns": [
+      "Pathway",
+      "Course",
+      "Enrollment",
+      "Pathway Completers",
+      "Credentials Attempted / Earned"
+    ],
+    "rows": [
+      [
+        "Artificial Intelligence",
+        "Foundations of Artificial Intelligence (11.44300)",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Artificial Intelligence",
+        "Artificial Intelligence Concepts (11.44400)",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Artificial Intelligence",
+        "Artificial Intelligence Applications (11.44500)",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Cloud Computing",
+        "Introduction to Software Technology (11.44600)",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Cloud Computing",
+        "AP Computer Science Principles (11.01900)",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Cloud Computing",
+        "AP Computer Science A",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Cloud Computing",
+        "Cloud Computing (11.44700)",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Computer Science",
+        "Introduction to Software Technology (11.44600)",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Computer Science",
+        "AP Computer Science Principles (11.01900)",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Computer Science",
+        "AP Computer Science A",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Entrepreneurship",
+        "Introduction to Business & Technology (07.44130)",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Entrepreneurship",
+        "Legal Environment of Business (06.41500)",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Entrepreneurship",
+        "Entrepreneurship (06.41610)",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Financial Services",
+        "Introduction to Business & Technology (07.44130)",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Financial Services",
+        "Financial Literacy (07.42600)",
+        "",
+        "",
+        ""
+      ],
+      [
+        "Financial Services",
+        "Banking, Investing & Insurance (07.43100)",
+        "",
+        "",
+        ""
+      ]
+    ],
+    "note": "* = predicted / estimated. Credentials are counted on each pathway's End of Pathway Assessment course."
   },
-
   "recruitment": {
     "title": "Recruitment & Publicity",
-    "columns": ["Date", "Activity / Outlet", "Audience", "Evidence"],
+    "columns": [
+      "Date",
+      "Activity / Outlet",
+      "Audience",
+      "Evidence"
+    ],
     "rows": []
   },
-
   "teacher-schedules": {
     "title": "Teacher Schedules & Duties",
-    "columns": ["Teacher", "Period 1", "Period 2", "Period 3", "Period 4", "Period 5", "Period 6", "Period 7", "Duties", "Years Experience"],
+    "columns": [
+      "Teacher",
+      "Period 1",
+      "Period 2",
+      "Period 3",
+      "Period 4",
+      "Period 5",
+      "Period 6",
+      "Period 7",
+      "Duties",
+      "Years Experience"
+    ],
     "rows": [],
     "note": "All BCS teachers work with FBLA. All teachers completed the Industry Certification Workshop on August 18, 2026."
   },
-
   "professional-development": {
     "title": "Professional Development Hours",
-    "columns": ["Teacher", "PD Hours (CTEARN)", "Job Shadow Company", "Job Shadow Hours", "Total"],
+    "columns": [
+      "Teacher",
+      "PD Hours (CTEARN)",
+      "Job Shadow Company",
+      "Job Shadow Hours",
+      "Total"
+    ],
     "rows": [],
     "note": "Requirement: 20 hours per teacher, including an 8-hour job shadow at a company (different company per teacher)."
   },
-
   "advisory-business": {
     "title": "Advisory Committee: Business Representatives",
-    "columns": ["Member Name", "Business", "Job Title", "Pathway Area", "Role", "Involvement"],
+    "columns": [
+      "Member Name",
+      "Business",
+      "Job Title",
+      "Pathway Area",
+      "Role",
+      "Involvement"
+    ],
     "rows": []
   },
   "advisory-education": {
     "title": "Advisory Committee: Education Representatives",
-    "columns": ["Member Name", "Education Affiliation", "Job Title", "Pathway Area", "Role", "Involvement"],
+    "columns": [
+      "Member Name",
+      "Education Affiliation",
+      "Job Title",
+      "Pathway Area",
+      "Role",
+      "Involvement"
+    ],
     "rows": []
   },
   "advisory-communication": {
     "title": "Communications with Committee",
-    "columns": ["Date", "Type", "Summary"],
+    "columns": [
+      "Date",
+      "Type",
+      "Summary"
+    ],
     "rows": []
   },
-
   "survey-summary": {
     "title": "Needs Assessment Summary",
-    "columns": ["Measure", "Value"],
+    "columns": [
+      "Measure",
+      "Value"
+    ],
     "rows": [
-      ["Businesses surveyed (target 50+)", ""],
-      ["Responses (target 25+)", ""],
-      ["Format", ""],
-      ["Date shared with committee", ""]
+      [
+        "Businesses surveyed (target 50+)",
+        ""
+      ],
+      [
+        "Responses (target 25+)",
+        ""
+      ],
+      [
+        "Format",
+        ""
+      ],
+      [
+        "Date shared with committee",
+        ""
+      ]
     ]
   },
   "survey-results": {
     "title": "Needs Assessment Results",
-    "columns": ["Skill / Response", "Count"],
+    "columns": [
+      "Skill / Response",
+      "Count"
+    ],
     "rows": [],
-    "chart": { "type": "bar", "label": 0, "values": [1] }
+    "chart": {
+      "type": "bar",
+      "label": 0,
+      "values": [
+        1
+      ]
+    }
   },
-
   "committee-activities": {
     "title": "Committee Activities",
-    "columns": ["Activity", "Date", "Committee Member", "Audience"],
+    "columns": [
+      "Activity",
+      "Date",
+      "Committee Member",
+      "Audience"
+    ],
     "rows": []
   },
   "community-involvement": {
     "title": "Community Involvement",
-    "columns": ["Activity", "Date", "Teacher Involved", "Students Involved"],
+    "columns": [
+      "Activity",
+      "Date",
+      "Teacher Involved",
+      "Students Involved"
+    ],
     "rows": []
   },
-
   "presentations": {
     "title": "Student Presentations",
-    "columns": ["Semester", "Teacher", "Course / Period", "Presentation Topic", "Students Presenting", "Visual Aid"],
+    "columns": [
+      "Semester",
+      "Teacher",
+      "Course / Period",
+      "Presentation Topic",
+      "Students Presenting",
+      "Visual Aid"
+    ],
     "rows": []
   },
-
   "budget": {
     "title": "Program Budget 2026-27",
-    "columns": ["Teacher", "Vendor", "Items", "Price", "Balance"],
+    "columns": [
+      "Teacher",
+      "Vendor",
+      "Items",
+      "Price",
+      "Balance"
+    ],
     "rows": []
   },
   "replacement-plan": {
     "title": "Equipment Replacement Schedule",
-    "columns": ["Room", "Equipment", "Installed", "Scheduled Replacement"],
+    "columns": [
+      "Room",
+      "Equipment",
+      "Installed",
+      "Scheduled Replacement"
+    ],
     "rows": []
   },
   "equipment": {
     "title": "Equipment & Software by Classroom",
-    "columns": ["Room / Teacher", "Equipment", "Quantity", "Software"],
+    "columns": [
+      "Room / Teacher",
+      "Equipment",
+      "Quantity",
+      "Software"
+    ],
     "rows": []
   },
   "shared-equipment": {
     "title": "Shared Department Equipment",
-    "columns": ["Equipment", "Location", "Shared By"],
+    "columns": [
+      "Equipment",
+      "Location",
+      "Shared By"
+    ],
     "rows": [],
     "note": "If nothing is shared, replace this note with: \"No equipment is shared among BCS classrooms.\""
   },
   "computer-specs": {
     "title": "Computer & Printer Specifications",
-    "columns": ["Room", "Computer Type", "Processor", "RAM", "Hard Drive", "Operating System", "Software / Version", "Printers"],
+    "columns": [
+      "Room",
+      "Computer Type",
+      "Processor",
+      "RAM",
+      "Hard Drive",
+      "Operating System",
+      "Software / Version",
+      "Printers"
+    ],
     "rows": []
   },
   "grant-funds": {
     "title": "IC Grant Funds",
-    "columns": ["Vendor", "Item", "Price", "Balance"],
+    "columns": [
+      "Vendor",
+      "Item",
+      "Price",
+      "Balance"
+    ],
     "rows": [],
     "note": "Grant funds may not be used for FBLA items."
   },
-
   "pow-months": {
     "title": "Program of Work: Month by Month",
-    "columns": ["Month", "Activities", "FBLA Goals", "Comments"],
+    "columns": [
+      "Month",
+      "Activities",
+      "FBLA Goals",
+      "Comments"
+    ],
     "rows": [
-      ["August", "", "", ""],
-      ["September", "", "", ""],
-      ["October", "", "", ""],
-      ["November", "", "", ""],
-      ["December", "", "", ""],
-      ["January", "", "", ""],
-      ["February", "", "", ""],
-      ["March", "", "", ""],
-      ["April", "", "", ""],
-      ["May", "", "", ""]
+      [
+        "August",
+        "",
+        "",
+        ""
+      ],
+      [
+        "September",
+        "",
+        "",
+        ""
+      ],
+      [
+        "October",
+        "",
+        "",
+        ""
+      ],
+      [
+        "November",
+        "",
+        "",
+        ""
+      ],
+      [
+        "December",
+        "",
+        "",
+        ""
+      ],
+      [
+        "January",
+        "",
+        "",
+        ""
+      ],
+      [
+        "February",
+        "",
+        "",
+        ""
+      ],
+      [
+        "March",
+        "",
+        "",
+        ""
+      ],
+      [
+        "April",
+        "",
+        "",
+        ""
+      ],
+      [
+        "May",
+        "",
+        "",
+        ""
+      ]
     ]
   },
   "chapter-meetings": {
     "title": "Chapter Meetings (minimum 5)",
-    "columns": ["Date", "Format", "Topic", "Attendance"],
+    "columns": [
+      "Date",
+      "Format",
+      "Topic",
+      "Attendance"
+    ],
     "rows": []
   },
   "conferences": {
     "title": "Conference Participation",
-    "columns": ["Event", "Date", "Location", "Advisers", "Students Attending", "Competitive Events"],
+    "columns": [
+      "Event",
+      "Date",
+      "Location",
+      "Advisers",
+      "Students Attending",
+      "Competitive Events"
+    ],
     "rows": [
-      ["Fall Motivational Rally", "", "", "", "", "n/a"],
-      ["Fall Leadership Conference", "", "", "", "", "n/a"],
-      ["Region Leadership Conference", "", "", "", "", ""],
-      ["State Leadership Conference", "", "", "", "", ""],
-      ["National Leadership Conference (if applicable)", "", "", "", "", ""]
+      [
+        "Fall Motivational Rally",
+        "",
+        "",
+        "",
+        "",
+        "n/a"
+      ],
+      [
+        "Fall Leadership Conference",
+        "",
+        "",
+        "",
+        "",
+        "n/a"
+      ],
+      [
+        "Region Leadership Conference",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "State Leadership Conference",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ],
+      [
+        "National Leadership Conference (if applicable)",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
     ]
   }
 }

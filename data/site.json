@@ -1,5 +1,5 @@
 {
-  "_help": "School-wide info shown on the Home and Program pages. Replace every TBD.",
+  "_help": "School-wide info shown on the Home and Program pages. Replace every TBD. Give any outside statistic a source with its year. Set verify on anything not yet confirmed with the school or consultant.",
   "school": "Denmark High School",
   "district": "Forsyth County Schools",
   "program": "Business & Computer Science",
@@ -9,14 +9,105 @@
   "mission": "TBD: program mission statement (#10).",
   "icChair": "TBD",
   "consultant": "Paula Davis, SHRM Georgia IC Consultant",
+
+  "profile": [
+    { "label": "School", "value": "Denmark High School, Grades 9-12" },
+    { "label": "Address", "value": "645 Mullinax Rd, Alpharetta, GA 30004" },
+    { "label": "District", "value": "Forsyth County Schools" },
+    { "label": "Enrollment", "value": "2,527", "source": "NCES Common Core of Data, 2024-25" },
+    { "label": "Accreditation", "value": "Cognia" },
+    { "label": "Named for", "value": "Dr. Leila Denmark, pediatrician; the school is built on her former property" }
+  ],
+
+  "districtFacts": {
+    "source": "Forsyth County Schools, 2026",
+    "facts": [
+      "53,000+ students from 129 countries, speaking 69 languages",
+      "Enrollment up 40% over the last decade",
+      "42 schools: 23 elementary, 11 middle, 8 high",
+      "GaDOE Economic Development Partnership Designation, tied to the Forsyth County Chamber's FoCo Works program"
+    ]
+  },
+
   "pathways": [
     {
-      "name": "TBD pathway name",
-      "cluster": "Business Management & Administration / Finance / Information Technology",
-      "eopa": "TBD End of Pathway Assessment",
-      "courses": ["TBD course 1", "TBD course 2", "TBD course 3"]
+      "name": "Artificial Intelligence",
+      "code": "358",
+      "cluster": "Information Technology",
+      "description": "The study of simulating intelligent behavior in computers, at the intersection of programming, data science, mathematical reasoning, creative problem solving, and ethics. Students use professional software-development tools and processes to build real-world AI applications with machine learning.",
+      "courses": [
+        { "name": "Foundations of Artificial Intelligence", "number": "11.44300" },
+        { "name": "Artificial Intelligence Concepts", "number": "11.44400" },
+        { "name": "Artificial Intelligence Applications", "number": "11.44500" }
+      ],
+      "careers": ["Machine Learning Engineer", "Data Scientist", "Natural Language Processing Engineer", "Computer Vision Engineer", "Business Intelligence Developer", "Big Data Engineer / Architect", "Robotics Engineer", "Software / AI Engineer", "Software Architect", "UX Designer / Developer", "Research Scientist"],
+      "eopa": null
+    },
+    {
+      "name": "Cloud Computing",
+      "code": "357",
+      "cluster": "Information Technology",
+      "description": "Cloud computing concepts, core services, security, architecture, and support: designing and deploying a virtual private network, building a scalable cloud environment, safe use of big data, and cloud best practices. The pathway was developed with input from AWS, Google Cloud, Microsoft, Accenture, and NCR.",
+      "courses": [
+        { "name": "Introduction to Software Technology", "number": "11.44600" },
+        { "name": "AP Computer Science Principles", "number": "11.01900" },
+        { "name": "AP Computer Science A", "number": null },
+        { "name": "Cloud Computing", "number": "11.44700" }
+      ],
+      "careers": ["Cloud Engineer", "Software Engineer", "Data Engineer", "Systems Engineer", "Systems Administrator", "Full Stack Developer", "Front-end Developer", "Java Developer", ".NET Developer", "Data Scientist"],
+      "eopa": null,
+      "verify": "Course sequence: the district lists Intro to Software Technology, then Computer Science Principles (or AP CSP), then Cloud Computing. Confirm the Denmark sequence."
+    },
+    {
+      "name": "Computer Science",
+      "code": "094",
+      "cluster": "Information Technology",
+      "description": "Prepares students for entry-level, technical, and professional IT careers in the design, development, implementation, and maintenance of systems and software, with emphasis on computational thinking: developing computational artifacts, abstracting, analyzing problems, communicating, and collaborating.",
+      "courses": [
+        { "name": "Introduction to Software Technology", "number": "11.44600" },
+        { "name": "AP Computer Science Principles", "number": "11.01900" },
+        { "name": "AP Computer Science A", "number": null }
+      ],
+      "careers": ["Software Developer", "Software Engineer", "Computer Programmer", "Computer Systems Analyst", "Database Administrator", "Information Security Analyst", "Network Administrator", "Computer Network Architect", "Computer Hardware Engineer", "Information Systems Manager", "Video Game Designer"],
+      "eopa": null
+    },
+    {
+      "name": "Entrepreneurship",
+      "code": "070",
+      "cluster": "Business Management & Administration",
+      "description": "Recognizing a business opportunity and starting, operating, and maintaining a business: planning, organizing, coordinating, and controlling resources, along with the statutes and regulations that affect businesses, families, and individuals.",
+      "courses": [
+        { "name": "Introduction to Business & Technology", "number": "07.44130" },
+        { "name": "Legal Environment of Business", "number": "06.41500" },
+        { "name": "Entrepreneurship", "number": "06.41610" }
+      ],
+      "careers": ["Business Manager", "Chief Executive Officer", "Advertising & Promotion Manager", "Financial Analyst / Manager", "Cost Estimator", "Training & Development Manager", "Personal Financial Advisor", "Paralegal / Legal Assistant", "Claims Adjuster / Examiner", "Computer Systems Analyst"],
+      "eopa": null
+    },
+    {
+      "name": "Financial Services",
+      "code": "081",
+      "cluster": "Finance",
+      "description": "Business ownership foundations plus methods for measuring the financial performance of financial institutions and investments: banking, investing, insurance and risk management, and ethics and fraud in banking.",
+      "courses": [
+        { "name": "Introduction to Business & Technology", "number": "07.44130" },
+        { "name": "Financial Literacy", "number": "07.42600" },
+        { "name": "Banking, Investing & Insurance", "number": "07.43100" }
+      ],
+      "careers": ["Accountant", "Auditor", "Financial Planner", "Insurance Sales Agent", "Claims Adjuster", "Financial Project Specialist", "Business Teacher", "Sales and Service"],
+      "eopa": null
     }
   ],
+  "pathwayNote": "Business & Computer Science covers courses numbered 06, 07, and 11.4 (Business Management & Administration, Finance, Information Technology), including AP Computer Science. Marketing pathways at Denmark are certified separately.",
+
+  "districtPrograms": [
+    { "name": "Internship Forsyth", "detail": "Work-based learning; any CTAE student can apply within their pathway." },
+    { "name": "Mock Interviews", "detail": "District mock interview program with business volunteers." },
+    { "name": "Launch Work Ready", "detail": "District workforce-readiness program." },
+    { "name": "Dual Enrollment", "detail": "College courses for high school credit." },
+    { "name": "CTAE Excellence Awards", "detail": "District recognition for CTAE students." }
+  ],
+
   "teachers": [
     { "name": "TBD", "courses": ["TBD"], "room": "TBD" }
   ],

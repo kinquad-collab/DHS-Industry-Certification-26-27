@@ -315,21 +315,37 @@ async function pageHome(site) {
 async function pageProgram(site) {
   const tables = await loadJSON("tables");
   const pathways = site.pathways.map(p => `
-    <article class="pathway">
+    <article class="pathway" id="pathway-${esc(p.code)}">
       <h3>${esc(p.name)}</h3>
-      <p class="meta">${esc(p.cluster)}</p>
-      <ol>${p.courses.map(c => `<li>${esc(c)}</li>`).join("")}</ol>
-      <p><strong>End of Pathway Assessment:</strong> ${esc(p.eopa)}</p>
+      <p class="meta">${esc(p.cluster)} · State pathway ${esc(p.code)}</p>
+      <p>${esc(p.description)}</p>
+      <h4>Courses</h4>
+      <ol class="course-list">${p.courses.map(c => `<li>${esc(c.name)}${c.number ? ` <span class="course-num">${esc(c.number)}</span>` : ""}</li>`).join("")}</ol>
+      ${p.verify ? `<p class="verify-note"><span class="verify">To confirm</span> ${esc(p.verify)}</p>` : ""}
+      <h4>Career opportunities</h4>
+      <p class="careers">${p.careers.map(esc).join(" · ")}</p>
+      <p><strong>End of Pathway Assessment:</strong> ${p.eopa ? esc(p.eopa) : '<span class="empty">Pending confirmation of the 2026-27 assessment</span>'}</p>
     </article>`).join("");
   const teachers = site.teachers.map(t => `<tr><td>${esc(t.name)}</td><td>${esc(t.courses.join(", "))}</td><td>${esc(t.room)}</td></tr>`).join("");
+  const profile = site.profile.map(f => `<div><dt>${esc(f.label)}</dt><dd>${esc(f.value)}${f.source ? `<span class="source">${esc(f.source)}</span>` : ""}</dd></div>`).join("");
+  const programs = site.districtPrograms.map(d => `<li><strong>${esc(d.name)}:</strong> ${esc(d.detail)}</li>`).join("");
 
   document.getElementById("content").innerHTML = `
     <section class="page-intro">
       <p class="eyebrow">Program Overview</p>
       <h1>${esc(site.program)} at ${esc(site.school)}</h1>
     </section>
-    <section id="mission"><h2>Mission Statement</h2><p class="lead">${esc(site.mission)}</p></section>
-    <section id="pathways"><h2>Pathways & Courses</h2><div class="pathway-grid">${pathways}</div></section>
+    <section id="mission"><h2>Mission Statement <a class="item-link" href="standard-2.html#item-10">#10</a></h2><p class="lead">${esc(site.mission)}</p></section>
+    <section id="school"><h2>School at a Glance</h2><dl class="profile">${profile}</dl>
+      <h3>${esc(site.district)}</h3>
+      <ul>${site.districtFacts.facts.map(f => `<li>${esc(f)}</li>`).join("")}</ul>
+      <p class="table-note">Source: ${esc(site.districtFacts.source)}</p>
+    </section>
+    <section id="pathways"><h2>Pathways & Courses</h2>
+      <p>${esc(site.pathwayNote)}</p>
+      <div class="pathway-grid">${pathways}</div>
+    </section>
+    <section id="opportunities"><h2>Career Opportunities Through ${esc(site.district)}</h2><ul>${programs}</ul></section>
     <section id="teachers"><h2>Teachers</h2>
       <div class="table-scroll"><table><thead><tr><th scope="col">Teacher</th><th scope="col">Courses</th><th scope="col">Room</th></tr></thead><tbody>${teachers}</tbody></table></div>
     </section>
