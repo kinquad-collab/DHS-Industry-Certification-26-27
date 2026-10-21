@@ -241,6 +241,7 @@
     "title": "Teacher Schedules & Duties",
     "columns": [
       "Teacher",
+      "Room",
       "Period 1",
       "Period 2",
       "Period 3",
@@ -256,6 +257,7 @@
     "rows": [
       [
         "Kyle Jones",
+        "2229",
         "Intro to Software Tech",
         "Planning",
         "Intro to Software Tech",
@@ -270,6 +272,7 @@
       ],
       [
         "Janelle Yearwood",
+        "1276",
         "AP CS Principles",
         "Intro to Software Tech",
         "AP CS Principles",
@@ -284,6 +287,7 @@
       ],
       [
         "Kinny Cornelison",
+        "2276",
         "Foundations of AI",
         "Cloud Computing",
         "Foundations of AI",
@@ -298,6 +302,7 @@
       ],
       [
         "Manjusha Ushakumari",
+        "1490",
         "AI Concepts",
         "Planning",
         "AI Concepts",
@@ -312,6 +317,7 @@
       ],
       [
         "Eric Arnold",
+        "1493",
         "AI Applications",
         "AP CS A",
         "AI Applications",
@@ -326,6 +332,7 @@
       ],
       [
         "Elizabeth Vega",
+        "1281",
         "Intro to Business & Tech",
         "Planning",
         "Planning",
@@ -340,6 +347,7 @@
       ],
       [
         "Steven Weimann",
+        "1279",
         "Financial Literacy",
         "Legal Environment of Business",
         "Planning",
@@ -354,6 +362,7 @@
       ],
       [
         "Jarrod Shirley",
+        "1229",
         "Banking, Investing & Insurance",
         "Entrepreneurship",
         "Banking, Investing & Insurance",
@@ -367,7 +376,7 @@
         "Pending"
       ]
     ],
-    "note": "All BCS teachers work with FBLA. Schedule shown is 1st semester; 2nd-semester schedule pending."
+    "note": "All BCS teachers work with FBLA. Source: 2026-27 Master Schedule. Schedule shown is 1st semester; 2nd-semester schedule pending."
   },
   "professional-development": {
     "title": "Professional Development Hours",

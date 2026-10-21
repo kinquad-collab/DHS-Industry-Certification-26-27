@@ -242,7 +242,7 @@
         "Introduction to Software Technology",
         "AP Computer Science Principles"
       ],
-      "room": "TBD"
+      "room": "2229"
     },
     {
       "name": "Janelle Yearwood",
@@ -250,7 +250,7 @@
         "Introduction to Software Technology",
         "AP Computer Science Principles"
       ],
-      "room": "TBD"
+      "room": "1276"
     },
     {
       "name": "Kinny Cornelison",
@@ -266,7 +266,7 @@
         "Artificial Intelligence Concepts",
         "AP Computer Science A"
       ],
-      "room": "TBD"
+      "room": "1490"
     },
     {
       "name": "Eric Arnold",
@@ -274,14 +274,14 @@
         "Artificial Intelligence Applications",
         "AP Computer Science A"
       ],
-      "room": "TBD"
+      "room": "1493"
     },
     {
       "name": "Elizabeth Vega",
       "courses": [
         "Introduction to Business & Technology"
       ],
-      "room": "TBD"
+      "room": "1281"
     },
     {
       "name": "Steven Weimann",
@@ -289,7 +289,7 @@
         "Financial Literacy",
         "Legal Environment of Business"
       ],
-      "room": "TBD"
+      "room": "1279"
     },
     {
       "name": "Jarrod Shirley",
@@ -297,7 +297,7 @@
         "Banking, Investing & Insurance",
         "Entrepreneurship"
       ],
-      "room": "TBD"
+      "room": "1229"
     }
   ],
   "fblaRecruitment": "TBD: how students join FBLA, meeting times, dues, adviser contact.",
