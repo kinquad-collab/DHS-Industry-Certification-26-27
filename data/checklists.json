@@ -1,0 +1,45 @@
+{
+  "_help": "One entry per monthly checklist. items = item numbers reviewed that month. submitted: date sent (or null). feedback: consultant comments received by the 15th; corrections due by the 1st of the next month.",
+  "checklists": [
+    {
+      "month": "October",
+      "due": "2026-10-01",
+      "items": [1, 2, 3, 5, 21],
+      "notes": "Live website URL. Long-term project (#5) needs consultant approval. Survey copy (#21/22).",
+      "submitted": null,
+      "feedback": []
+    },
+    {
+      "month": "November",
+      "due": "2026-11-01",
+      "items": [4],
+      "notes": "Full contents in booklet pp. 29-37 (not yet provided). Update #5 progress.",
+      "submitted": null,
+      "feedback": []
+    },
+    {
+      "month": "December",
+      "due": "2026-12-01",
+      "items": [4],
+      "notes": "Full contents in booklet pp. 29-37 (not yet provided). Update #5 progress.",
+      "submitted": null,
+      "feedback": []
+    },
+    {
+      "month": "February",
+      "due": "2027-02-01",
+      "items": [8, 9],
+      "notes": "Full contents in booklet pp. 29-37 (not yet provided).",
+      "submitted": null,
+      "feedback": []
+    },
+    {
+      "month": "March",
+      "due": "2027-03-01",
+      "items": [],
+      "notes": "Full contents in booklet pp. 29-37 (not yet provided). Everything complete by March 31.",
+      "submitted": null,
+      "feedback": []
+    }
+  ]
+}

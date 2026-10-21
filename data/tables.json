@@ -1,0 +1,175 @@
+{
+  "_help": "Each table: title, columns, rows (array of arrays, same order as columns), optional note, optional chart { type: bar | pie | doughnut, label: column index, values: [column indexes] }. Charts draw only when rows exist and the value columns are numbers.",
+
+  "demographics-ethnicity": {
+    "title": "Enrollment by Ethnicity",
+    "columns": ["Ethnicity", "Students"],
+    "rows": [],
+    "chart": { "type": "doughnut", "label": 0, "values": [1] }
+  },
+  "demographics-gender": {
+    "title": "Enrollment by Gender",
+    "columns": ["Gender", "Students"],
+    "rows": [],
+    "chart": { "type": "pie", "label": 0, "values": [1] }
+  },
+  "demographics-grade": {
+    "title": "Enrollment by Grade Level",
+    "columns": ["Grade", "Students"],
+    "rows": [],
+    "chart": { "type": "bar", "label": 0, "values": [1] }
+  },
+  "demographics-other": {
+    "title": "Free / Reduced Lunch & CCRPI",
+    "columns": ["Measure", "Value"],
+    "rows": []
+  },
+
+  "offerings-2025-26": {
+    "title": "Program Offerings 2025-26",
+    "columns": ["Pathway", "Course", "Enrollment", "Pathway Completers", "Credentials Attempted / Earned"],
+    "rows": []
+  },
+  "offerings-2026-27": {
+    "title": "Program Offerings 2026-27",
+    "columns": ["Pathway", "Course", "Enrollment", "Pathway Completers", "Credentials Attempted / Earned"],
+    "rows": [],
+    "note": "* = predicted / estimated"
+  },
+
+  "recruitment": {
+    "title": "Recruitment & Publicity",
+    "columns": ["Date", "Activity / Outlet", "Audience", "Evidence"],
+    "rows": []
+  },
+
+  "teacher-schedules": {
+    "title": "Teacher Schedules & Duties",
+    "columns": ["Teacher", "Period 1", "Period 2", "Period 3", "Period 4", "Period 5", "Period 6", "Period 7", "Duties", "Years Experience"],
+    "rows": [],
+    "note": "All BCS teachers work with FBLA. All teachers completed the Industry Certification Workshop on August 18, 2026."
+  },
+
+  "professional-development": {
+    "title": "Professional Development Hours",
+    "columns": ["Teacher", "PD Hours (CTEARN)", "Job Shadow Company", "Job Shadow Hours", "Total"],
+    "rows": [],
+    "note": "Requirement: 20 hours per teacher, including an 8-hour job shadow at a company (different company per teacher)."
+  },
+
+  "advisory-business": {
+    "title": "Advisory Committee: Business Representatives",
+    "columns": ["Member Name", "Business", "Job Title", "Pathway Area", "Role", "Involvement"],
+    "rows": []
+  },
+  "advisory-education": {
+    "title": "Advisory Committee: Education Representatives",
+    "columns": ["Member Name", "Education Affiliation", "Job Title", "Pathway Area", "Role", "Involvement"],
+    "rows": []
+  },
+  "advisory-communication": {
+    "title": "Communications with Committee",
+    "columns": ["Date", "Type", "Summary"],
+    "rows": []
+  },
+
+  "survey-summary": {
+    "title": "Needs Assessment Summary",
+    "columns": ["Measure", "Value"],
+    "rows": [
+      ["Businesses surveyed (target 50+)", ""],
+      ["Responses (target 25+)", ""],
+      ["Format", ""],
+      ["Date shared with committee", ""]
+    ]
+  },
+  "survey-results": {
+    "title": "Needs Assessment Results",
+    "columns": ["Skill / Response", "Count"],
+    "rows": [],
+    "chart": { "type": "bar", "label": 0, "values": [1] }
+  },
+
+  "committee-activities": {
+    "title": "Committee Activities",
+    "columns": ["Activity", "Date", "Committee Member", "Audience"],
+    "rows": []
+  },
+  "community-involvement": {
+    "title": "Community Involvement",
+    "columns": ["Activity", "Date", "Teacher Involved", "Students Involved"],
+    "rows": []
+  },
+
+  "presentations": {
+    "title": "Student Presentations",
+    "columns": ["Semester", "Teacher", "Course / Period", "Presentation Topic", "Students Presenting", "Visual Aid"],
+    "rows": []
+  },
+
+  "budget": {
+    "title": "Program Budget 2026-27",
+    "columns": ["Teacher", "Vendor", "Items", "Price", "Balance"],
+    "rows": []
+  },
+  "replacement-plan": {
+    "title": "Equipment Replacement Schedule",
+    "columns": ["Room", "Equipment", "Installed", "Scheduled Replacement"],
+    "rows": []
+  },
+  "equipment": {
+    "title": "Equipment & Software by Classroom",
+    "columns": ["Room / Teacher", "Equipment", "Quantity", "Software"],
+    "rows": []
+  },
+  "shared-equipment": {
+    "title": "Shared Department Equipment",
+    "columns": ["Equipment", "Location", "Shared By"],
+    "rows": [],
+    "note": "If nothing is shared, replace this note with: \"No equipment is shared among BCS classrooms.\""
+  },
+  "computer-specs": {
+    "title": "Computer & Printer Specifications",
+    "columns": ["Room", "Computer Type", "Processor", "RAM", "Hard Drive", "Operating System", "Software / Version", "Printers"],
+    "rows": []
+  },
+  "grant-funds": {
+    "title": "IC Grant Funds",
+    "columns": ["Vendor", "Item", "Price", "Balance"],
+    "rows": [],
+    "note": "Grant funds may not be used for FBLA items."
+  },
+
+  "pow-months": {
+    "title": "Program of Work: Month by Month",
+    "columns": ["Month", "Activities", "FBLA Goals", "Comments"],
+    "rows": [
+      ["August", "", "", ""],
+      ["September", "", "", ""],
+      ["October", "", "", ""],
+      ["November", "", "", ""],
+      ["December", "", "", ""],
+      ["January", "", "", ""],
+      ["February", "", "", ""],
+      ["March", "", "", ""],
+      ["April", "", "", ""],
+      ["May", "", "", ""]
+    ]
+  },
+  "chapter-meetings": {
+    "title": "Chapter Meetings (minimum 5)",
+    "columns": ["Date", "Format", "Topic", "Attendance"],
+    "rows": []
+  },
+  "conferences": {
+    "title": "Conference Participation",
+    "columns": ["Event", "Date", "Location", "Advisers", "Students Attending", "Competitive Events"],
+    "rows": [
+      ["Fall Motivational Rally", "", "", "", "", "n/a"],
+      ["Fall Leadership Conference", "", "", "", "", "n/a"],
+      ["Region Leadership Conference", "", "", "", "", ""],
+      ["State Leadership Conference", "", "", "", "", ""],
+      ["National Leadership Conference (if applicable)", "", "", "", "", ""]
+    ]
+  }
+}

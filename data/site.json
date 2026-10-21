@@ -1,0 +1,28 @@
+{
+  "_help": "School-wide info shown on the Home and Program pages. Replace every TBD.",
+  "school": "Denmark High School",
+  "district": "Forsyth County Schools",
+  "program": "Business & Computer Science",
+  "year": "2026-2027",
+  "mascot": "Danes",
+  "updated": "2026-10-21",
+  "mission": "TBD: program mission statement (#10).",
+  "icChair": "TBD",
+  "consultant": "Paula Davis, SHRM Georgia IC Consultant",
+  "pathways": [
+    {
+      "name": "TBD pathway name",
+      "cluster": "Business Management & Administration / Finance / Information Technology",
+      "eopa": "TBD End of Pathway Assessment",
+      "courses": ["TBD course 1", "TBD course 2", "TBD course 3"]
+    }
+  ],
+  "teachers": [
+    { "name": "TBD", "courses": ["TBD"], "room": "TBD" }
+  ],
+  "fblaRecruitment": "TBD: how students join FBLA, meeting times, dues, adviser contact.",
+  "membership": {
+    "fblaMembers": null,
+    "bcsStudents": null
+  }
+}
