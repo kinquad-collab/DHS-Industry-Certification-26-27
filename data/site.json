@@ -300,9 +300,58 @@
       "room": "1229"
     }
   ],
-  "fblaRecruitment": "TBD: how students join FBLA, meeting times, dues, adviser contact.",
+  "fblaRecruitment": "Denmark FBLA is open to students of every interest: finance, entrepreneurship, technology, communication, leadership, education, and more. Officers recruit all year through Instagram, Remind, announcements, classroom visits, and Rush Week, and follow up personally with every interested student.",
   "membership": {
-    "fblaMembers": null,
+    "fblaMembers": 532,
+    "membersSource": "Chapter newsletter, Aug/Sep 2026: 532 members (493 gold, 39 silver). To be confirmed against the FBLA CONNECT national roster.",
     "bcsStudents": null
+  },
+  "fblaPlan": {
+    "title": "DHS FBLA Chapter Member Recruitment Project Plan",
+    "goal": "Increase DHS FBLA membership and get more students actively involved in the chapter by reaching as many students as possible, making FBLA easy to understand, and giving students a reason to join and stay involved.",
+    "steps": [
+      {
+        "title": "Prepare for recruitment",
+        "text": "Officers ready membership information, meeting dates, competitive event information, and ways to get involved, plus Instagram posts, Remind messages, flyers, announcements, and classroom outreach."
+      },
+      {
+        "title": "Push recruitment",
+        "text": "FBLA is promoted repeatedly through Instagram, Remind, announcements, classroom visits, flyers, and personal conversations. Members invite friends. During Rush Week, the chapter points system rewards attendance at activities, meetings, and recruitment events."
+      },
+      {
+        "title": "Reach more students",
+        "text": "Outreach goes beyond students already interested in business, to students interested in finance, entrepreneurship, technology, communication, leadership, education, and other areas."
+      },
+      {
+        "title": "Follow up with interested students",
+        "text": "Officers answer questions, send reminders about deadlines and meetings, and personally reach out to students who showed interest but have not finished joining."
+      },
+      {
+        "title": "Make new members feel involved",
+        "text": "New members immediately receive communication channels, meeting and competition information, and help finding an area of FBLA that interests them."
+      },
+      {
+        "title": "Push competition participation",
+        "text": "New members are introduced to competitive events, encouraged to choose one that fits their strengths, and reminded about competition meetings, deadlines, and preparation."
+      },
+      {
+        "title": "Keep members active",
+        "text": "Recruitment continues all year. Active members are recognized, and officers work to bring inactive members back to meetings and activities."
+      }
+    ],
+    "tools": [
+      "Instagram",
+      "Remind",
+      "School announcements",
+      "Classroom visits",
+      "Flyers",
+      "Rush Week",
+      "Personal invitations",
+      "Member referrals",
+      "Competition meetings",
+      "Chapter events",
+      "Participation incentives"
+    ],
+    "tracking": "Officers track new members, Rush Week participation, meeting attendance, competition participation, and event involvement throughout the year, using the chapter points tracker."
   }
 }

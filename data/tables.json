@@ -235,7 +235,20 @@
       "Audience",
       "Evidence"
     ],
-    "rows": []
+    "rows": [
+      [
+        "Aug-Sep 2026",
+        "DHS FBLA family & student newsletter (August/September issue)",
+        "FBLA families and students",
+        "Newsletter copy pending"
+      ],
+      [
+        "2026-27",
+        "Chapter Member Recruitment Project Plan: Instagram, Remind, announcements, classroom visits, flyers, Rush Week, referrals",
+        "All DHS students",
+        "Plan on Program page"
+      ]
+    ]
   },
   "teacher-schedules": {
     "title": "Teacher Schedules & Duties",
@@ -754,5 +767,25 @@
       ]
     ],
     "note": "Summarized from each teacher's GaPSC certificate. Certificate copies are not posted because they include home addresses."
+  },
+  "service-projects": {
+    "title": "Service Projects",
+    "columns": [
+      "Project",
+      "Type",
+      "Organization Assisted",
+      "Dates",
+      "Result"
+    ],
+    "rows": [
+      [
+        "August School Supply Drive",
+        "Community service (#39)",
+        "Pending",
+        "August 2026",
+        "754 collected (per Aug/Sep newsletter)"
+      ]
+    ],
+    "note": "Photos showing member involvement are still needed for each project."
   }
 }

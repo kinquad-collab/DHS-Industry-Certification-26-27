@@ -193,18 +193,23 @@ function renderEvidence(item) {
 // ---------- Items & standards ----------
 
 function membershipBlock(site) {
-  const { fblaMembers, bcsStudents } = site.membership || {};
-  if (!fblaMembers || !bcsStudents) {
+  const { fblaMembers, bcsStudents, membersSource } = site.membership || {};
+  if (!fblaMembers) {
     return `<p class="empty">Enter FBLA members and BCS enrollment in data/site.json to calculate.</p>`;
   }
-  const pct = (fblaMembers / bcsStudents) * 100;
-  const pts = pct > 25 ? 3 : pct > 10 ? 2 : 1;
   const baa = Math.ceil(fblaMembers * 0.1);
+  let pctStat = `<div class="stat"><span class="stat-value">–</span><span class="stat-label">Membership % (BCS enrollment pending)</span></div>`;
+  if (bcsStudents) {
+    const pct = (fblaMembers / bcsStudents) * 100;
+    const pts = pct > 25 ? 3 : pct > 10 ? 2 : 1;
+    pctStat = `<div class="stat"><span class="stat-value">${pct.toFixed(1)}%</span><span class="stat-label">Membership (${pts} pt${pts > 1 ? "s" : ""})</span></div>`;
+  }
   return `<div class="stat-row">
-    <div class="stat"><span class="stat-value">${fblaMembers} / ${bcsStudents}</span><span class="stat-label">Members / BCS students</span></div>
-    <div class="stat"><span class="stat-value">${pct.toFixed(1)}%</span><span class="stat-label">Membership (${pts} pt${pts > 1 ? "s" : ""})</span></div>
+    <div class="stat"><span class="stat-value">${fblaMembers}${bcsStudents ? ` / ${bcsStudents}` : ""}</span><span class="stat-label">FBLA members${bcsStudents ? " / BCS students" : ""}</span></div>
+    ${pctStat}
     <div class="stat"><span class="stat-value">${baa}</span><span class="stat-label">BAAs needed for #47</span></div>
-  </div>`;
+  </div>
+  ${membersSource ? `<p class="table-note">${esc(membersSource)}</p>` : ""}`;
 }
 
 function renderItem(item, tables, site) {
@@ -353,8 +358,23 @@ async function pageProgram(site) {
       ${renderTable("offerings-2025-26", tables["offerings-2025-26"])}
       ${renderTable("offerings-2026-27", tables["offerings-2026-27"])}
     </section>
-    <section id="fbla"><h2>Join FBLA</h2><p>${esc(site.fblaRecruitment)}</p></section>`;
+    <section id="fbla"><h2>Join FBLA <a class="item-link" href="standard-2.html#item-10">#10</a></h2>
+      <p class="lead">${esc(site.fblaRecruitment)}</p>
+      ${site.fblaPlan ? fblaPlanBlock(site.fblaPlan) : ""}
+    </section>`;
   renderFooter(site);
+}
+
+function fblaPlanBlock(plan) {
+  return `<article class="plan">
+    <h3>${esc(plan.title)}</h3>
+    <p><strong>Goal:</strong> ${esc(plan.goal)}</p>
+    <ol class="plan-steps">${plan.steps.map(s => `<li><strong>${esc(s.title)}.</strong> ${esc(s.text)}</li>`).join("")}</ol>
+    <h4>Recruitment tools</h4>
+    <ul class="tag-list">${plan.tools.map(t => `<li>${esc(t)}</li>`).join("")}</ul>
+    <h4>Tracking progress</h4>
+    <p>${esc(plan.tracking)}</p>
+  </article>`;
 }
 
 async function pageChecklists(site) {

@@ -287,9 +287,9 @@
           ],
           "evidence": [
             {
-              "title": "Program page: pathways, courses, careers, and district programs",
+              "title": "Program page: pathways, courses, careers, district programs, and FBLA recruitment plan",
               "href": "program.html",
-              "caption": "Mission statement and FBLA recruitment details still to be added."
+              "caption": "Mission statement still to be added."
             }
           ]
         },
@@ -775,14 +775,17 @@
             39
           ],
           "title": "Community Service Project",
-          "status": "not-started",
+          "status": "in-progress",
           "requirements": [
             "Project name",
             "Organization assisted",
             "Dates",
             "Photos showing involvement"
           ],
-          "evidence": []
+          "evidence": [],
+          "tables": [
+            "service-projects"
+          ]
         },
         {
           "nums": [
@@ -795,7 +798,10 @@
             "Dates",
             "Photos"
           ],
-          "evidence": []
+          "evidence": [],
+          "tables": [
+            "service-projects"
+          ]
         },
         {
           "nums": [
@@ -825,7 +831,7 @@
             46
           ],
           "title": "Membership Percentage",
-          "status": "not-started",
+          "status": "in-progress",
           "maxPoints": 3,
           "scope": "FBLA members / students in all BCS classes (non-duplicated). Up to 10% = 1 pt; 10.1 to 25% = 2 pts; 25.1% or more = 3 pts.",
           "requirements": [
@@ -840,7 +846,7 @@
             47
           ],
           "title": "Business Achievement Awards",
-          "status": "not-started",
+          "status": "in-progress",
           "scope": "10% of membership earning BAAs this year (round up). Do not post a spreadsheet of activities.",
           "requirements": [
             "Completed BAA certificate copies",
