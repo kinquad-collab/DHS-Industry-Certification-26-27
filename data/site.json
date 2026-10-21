@@ -237,10 +237,65 @@
   ],
   "teachers": [
     {
-      "name": "A. McKinley Cornelison IV",
+      "name": "Kyle Jones",
+      "courses": [
+        "Introduction to Software Technology",
+        "AP Computer Science Principles"
+      ],
+      "room": "TBD"
+    },
+    {
+      "name": "Janelle Yearwood",
+      "courses": [
+        "Introduction to Software Technology",
+        "AP Computer Science Principles"
+      ],
+      "room": "TBD"
+    },
+    {
+      "name": "Kinny Cornelison",
       "courses": [
         "Foundations of Artificial Intelligence",
         "Cloud Computing"
+      ],
+      "room": "2276"
+    },
+    {
+      "name": "Manjusha Ushakumari",
+      "courses": [
+        "Artificial Intelligence Concepts",
+        "AP Computer Science A"
+      ],
+      "room": "TBD"
+    },
+    {
+      "name": "Eric Arnold",
+      "courses": [
+        "Artificial Intelligence Applications",
+        "AP Computer Science A"
+      ],
+      "room": "TBD"
+    },
+    {
+      "name": "Elizabeth Vega",
+      "courses": [
+        "Introduction to Business & Technology"
+      ],
+      "room": "TBD"
+    },
+    {
+      "name": "Steven Weimann",
+      "courses": [
+        "Financial Literacy",
+        "Legal Environment of Business"
+      ],
+      "room": "TBD"
+    },
+    {
+      "name": "Jarrod Shirley",
+      "courses": [
+        "Banking, Investing & Insurance",
+        "Entrepreneurship"
       ],
       "room": "TBD"
     }

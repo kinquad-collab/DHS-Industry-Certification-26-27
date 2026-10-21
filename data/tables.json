@@ -248,11 +248,126 @@
       "Period 5",
       "Period 6",
       "Period 7",
-      "Duties",
-      "Years Experience"
+      "IC Workshop",
+      "Years Teaching",
+      "Years Industry",
+      "Additional Responsibilities"
     ],
-    "rows": [],
-    "note": "All BCS teachers work with FBLA. All teachers completed the Industry Certification Workshop on August 18, 2026."
+    "rows": [
+      [
+        "Kyle Jones",
+        "Intro to Software Tech",
+        "Planning",
+        "Intro to Software Tech",
+        "AP CS Principles",
+        "Planning",
+        "AP CS Principles",
+        "Intro to Software Tech",
+        "Aug 25, 2026",
+        "8 (3 in CTAE)",
+        "0",
+        "FBLA Adviser"
+      ],
+      [
+        "Janelle Yearwood",
+        "AP CS Principles",
+        "Intro to Software Tech",
+        "AP CS Principles",
+        "Intro to Software Tech",
+        "Planning",
+        "Planning",
+        "AP CS Principles",
+        "Aug 25, 2026",
+        "Pending",
+        "Pending",
+        "Pending"
+      ],
+      [
+        "Kinny Cornelison",
+        "Foundations of AI",
+        "Cloud Computing",
+        "Foundations of AI",
+        "Foundations of AI",
+        "Planning",
+        "Planning",
+        "Foundations of AI",
+        "Aug 18, 2026",
+        "3",
+        "12",
+        "FBLA Adviser"
+      ],
+      [
+        "Manjusha Ushakumari",
+        "AI Concepts",
+        "Planning",
+        "AI Concepts",
+        "AP CS A",
+        "Planning",
+        "AP CS A",
+        "AI Concepts",
+        "Aug 18, 2026",
+        "7",
+        "4",
+        "FBLA Adviser; Girls Who Code Adviser; Society of Women Engineers (SWENext) Adviser"
+      ],
+      [
+        "Eric Arnold",
+        "AI Applications",
+        "AP CS A",
+        "AI Applications",
+        "Planning",
+        "Planning",
+        "AP CS A",
+        "AI Applications",
+        "Aug 18, 2026",
+        "9+",
+        "25+",
+        "CTAE Co-Department Chair; Computer Science PLC Team Facilitator; New Teacher Mentor; FBLA Adviser; CS Club Adviser; AI/ML Club Adviser"
+      ],
+      [
+        "Elizabeth Vega",
+        "Intro to Business & Tech",
+        "Planning",
+        "Planning",
+        "Intro to Business & Tech",
+        "Intro to Business & Tech",
+        "Intro to Business & Tech",
+        "Intro to Business & Tech",
+        "Aug 25, 2026",
+        "10+",
+        "10+",
+        "FBLA Adviser; Entrepreneur Club Adviser"
+      ],
+      [
+        "Steven Weimann",
+        "Financial Literacy",
+        "Legal Environment of Business",
+        "Planning",
+        "Planning",
+        "Financial Literacy",
+        "Legal Environment of Business",
+        "Financial Literacy",
+        "Aug 18, 2026",
+        "1",
+        "12",
+        "FBLA Adviser; Mock Trial Club Adviser"
+      ],
+      [
+        "Jarrod Shirley",
+        "Banking, Investing & Insurance",
+        "Entrepreneurship",
+        "Banking, Investing & Insurance",
+        "Entrepreneurship",
+        "Banking, Investing & Insurance",
+        "Planning",
+        "Planning",
+        "Aug 18, 2026",
+        "Pending",
+        "Pending",
+        "Pending"
+      ]
+    ],
+    "note": "All BCS teachers work with FBLA. Schedule shown is 1st semester; 2nd-semester schedule pending."
   },
   "professional-development": {
     "title": "Professional Development Hours",
@@ -570,5 +685,65 @@
         ""
       ]
     ]
+  },
+  "teacher-certification": {
+    "title": "Teacher Certification (Georgia Professional Standards Commission)",
+    "columns": [
+      "Teacher",
+      "Certificate Type",
+      "Teaching Fields",
+      "Valid Through"
+    ],
+    "rows": [
+      [
+        "Kyle Jones",
+        "Performance-Based Professional",
+        "Computer Science (P-12); Mathematics (6-12)",
+        "June 30, 2031"
+      ],
+      [
+        "Janelle Yearwood",
+        "Pending",
+        "Pending",
+        "Pending"
+      ],
+      [
+        "Kinny Cornelison",
+        "Five-Year Induction",
+        "Computer Science (P-12)",
+        "June 30, 2030"
+      ],
+      [
+        "Manjusha Ushakumari",
+        "Performance-Based Professional",
+        "Computer Science (P-12)",
+        "June 30, 2031"
+      ],
+      [
+        "Eric Arnold",
+        "Performance-Based Professional",
+        "Computer Science (P-12); Engineering & Technology; Mathematics (6-12)",
+        "June 30, 2030"
+      ],
+      [
+        "Elizabeth Vega",
+        "Performance-Based Professional",
+        "Business Education (6-12); Computer Science (P-12); ESOL; Special Education General Curriculum",
+        "June 30, 2029"
+      ],
+      [
+        "Steven Weimann",
+        "Pending",
+        "Pending",
+        "Pending"
+      ],
+      [
+        "Jarrod Shirley",
+        "Pending",
+        "Pending",
+        "Pending"
+      ]
+    ],
+    "note": "Summarized from each teacher's GaPSC certificate. Certificate copies are not posted because they include home addresses."
   }
 }

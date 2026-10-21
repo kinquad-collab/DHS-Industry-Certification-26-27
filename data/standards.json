@@ -15,7 +15,7 @@
           ],
           "title": "Course Syllabi",
           "due": "Oct",
-          "status": "not-started",
+          "status": "in-progress",
           "scope": "One per course (not per teacher), all 1st-semester courses.",
           "requirements": [
             "Course name",
@@ -26,7 +26,50 @@
             "End of Pathway Assessment (EOPA) for the pathway"
           ],
           "groupBy": "course",
-          "evidence": []
+          "evidence": [
+            {
+              "title": "Foundations of Artificial Intelligence Syllabus",
+              "href": "evidence/standard-1/syllabus-foundations-of-ai-cornelison.pdf",
+              "course": "Foundations of Artificial Intelligence",
+              "teacher": "Kinny Cornelison"
+            },
+            {
+              "title": "Cloud Computing Syllabus",
+              "href": "evidence/standard-1/syllabus-cloud-computing-cornelison.pdf",
+              "course": "Cloud Computing",
+              "teacher": "Kinny Cornelison"
+            },
+            {
+              "title": "Introduction to Software Technology Syllabus",
+              "href": "evidence/standard-1/syllabus-intro-software-tech-jones.pdf",
+              "course": "Introduction to Software Technology",
+              "teacher": "Kyle Jones"
+            },
+            {
+              "title": "AP Computer Science Principles Syllabus",
+              "href": "evidence/standard-1/syllabus-ap-csp-jones.pdf",
+              "course": "AP Computer Science Principles",
+              "teacher": "Kyle Jones"
+            },
+            {
+              "title": "Introduction to Business & Technology Syllabus",
+              "href": "evidence/standard-1/syllabus-pacing-intro-business-tech-vega.pdf",
+              "course": "Introduction to Business & Technology",
+              "teacher": "Elizabeth Vega"
+            },
+            {
+              "title": "Legal Environment of Business Syllabus",
+              "href": "evidence/standard-1/syllabus-pacing-legal-environment-weimann.pdf",
+              "course": "Legal Environment of Business",
+              "teacher": "Steven Weimann"
+            },
+            {
+              "title": "Financial Literacy Syllabus",
+              "href": "evidence/standard-1/syllabus-pacing-financial-literacy-weimann.pdf",
+              "course": "Financial Literacy",
+              "teacher": "Steven Weimann"
+            }
+          ]
         },
         {
           "nums": [
@@ -34,7 +77,7 @@
           ],
           "title": "Pacing Guides",
           "due": "Oct",
-          "status": "not-started",
+          "status": "in-progress",
           "scope": "One per course, 1st semester. Must be current (no outdated guides).",
           "requirements": [
             "Dates / timeline",
@@ -43,7 +86,50 @@
             "FBLA integration: at least 3 planned FBLA activities listed"
           ],
           "groupBy": "course",
-          "evidence": []
+          "evidence": [
+            {
+              "title": "Foundations of Artificial Intelligence Syllabus & Pacing Guide",
+              "href": "evidence/standard-1/syllabus-foundations-of-ai-cornelison.pdf",
+              "course": "Foundations of Artificial Intelligence",
+              "teacher": "Kinny Cornelison"
+            },
+            {
+              "title": "Cloud Computing Syllabus & Pacing Guide",
+              "href": "evidence/standard-1/syllabus-cloud-computing-cornelison.pdf",
+              "course": "Cloud Computing",
+              "teacher": "Kinny Cornelison"
+            },
+            {
+              "title": "Introduction to Software Technology Syllabus (Projected Course Timeline)",
+              "href": "evidence/standard-1/syllabus-intro-software-tech-jones.pdf",
+              "course": "Introduction to Software Technology",
+              "teacher": "Kyle Jones"
+            },
+            {
+              "title": "AP Computer Science Principles Syllabus (Projected Course Timeline)",
+              "href": "evidence/standard-1/syllabus-ap-csp-jones.pdf",
+              "course": "AP Computer Science Principles",
+              "teacher": "Kyle Jones"
+            },
+            {
+              "title": "Introduction to Business & Technology Syllabus & Pacing Guide",
+              "href": "evidence/standard-1/syllabus-pacing-intro-business-tech-vega.pdf",
+              "course": "Introduction to Business & Technology",
+              "teacher": "Elizabeth Vega"
+            },
+            {
+              "title": "Legal Environment of Business Syllabus & Pacing Guide",
+              "href": "evidence/standard-1/syllabus-pacing-legal-environment-weimann.pdf",
+              "course": "Legal Environment of Business",
+              "teacher": "Steven Weimann"
+            },
+            {
+              "title": "Financial Literacy Syllabus & Pacing Guide",
+              "href": "evidence/standard-1/syllabus-pacing-financial-literacy-weimann.pdf",
+              "course": "Financial Literacy",
+              "teacher": "Steven Weimann"
+            }
+          ]
         },
         {
           "nums": [
@@ -88,7 +174,7 @@
           ],
           "title": "Long-Term Team Application Project",
           "due": "Oct (approval), then monthly updates",
-          "status": "not-started",
+          "status": "in-progress",
           "scope": "One per pathway, 10+ hours, taught in a 2nd or 3rd level course. Minimum 3 interdependent students. Simulates actual business activities.",
           "requirements": [
             "IC consultant approval of the instruction sheet",
@@ -102,7 +188,15 @@
             "Updated monthly with progress to date"
           ],
           "groupBy": "course",
-          "evidence": []
+          "evidence": [
+            {
+              "title": "Mock Trial: State of Georgia v. Logan Haynes (Entrepreneurship pathway)",
+              "href": "evidence/standard-1/long-term-project-mock-trial-legal-environment.pdf",
+              "course": "Legal Environment of Business",
+              "teacher": "Steven Weimann",
+              "caption": "Team project, 10 hours, Aug 21 to Sep 15, 2026. Instruction sheet, standards BMA-LEB-1 to 3, timeline, and grading sheet."
+            }
+          ]
         },
         {
           "nums": [
@@ -204,7 +298,7 @@
             11
           ],
           "title": "Teacher Certification",
-          "status": "not-started",
+          "status": "in-progress",
           "scope": "Clear, renewable certificate in Business Education and/or Computer Science for every BCS teacher. CS course teachers need CS certification. Program score = lowest tier among its teachers.",
           "requirements": [
             "Copy of teaching certificate for each BCS teacher",
@@ -212,14 +306,17 @@
           ],
           "private": true,
           "groupBy": "teacher",
-          "evidence": []
+          "evidence": [],
+          "tables": [
+            "teacher-certification"
+          ]
         },
         {
           "nums": [
             12
           ],
           "title": "Daily Schedules & Responsibilities",
-          "status": "not-started",
+          "status": "in-progress",
           "scope": "Per teacher, 1st and 2nd semester.",
           "requirements": [
             "Daily schedule, both semesters",
@@ -231,7 +328,29 @@
           "tables": [
             "teacher-schedules"
           ],
-          "evidence": []
+          "evidence": [
+            {
+              "title": "Industry Certification Workshop Certificate (CTAERN10055, 6 hours, Aug 18, 2026)",
+              "href": "evidence/standard-2/ic-workshop-certificate-arnold.pdf",
+              "teacher": "Eric Arnold"
+            },
+            {
+              "title": "Industry Certification Workshop Certificate (CTAERN10055, 6 hours, Aug 18, 2026)",
+              "href": "evidence/standard-2/ic-workshop-certificate-cornelison.pdf",
+              "teacher": "Kinny Cornelison"
+            },
+            {
+              "title": "Industry Certification Workshop Certificate (CTAERN10055, 6 hours, Aug 18, 2026)",
+              "href": "evidence/standard-2/ic-workshop-certificate-ushakumari.pdf",
+              "teacher": "Manjusha Ushakumari"
+            },
+            {
+              "title": "Industry Certification Workshop Certificate (CTAERN10055, 6 hours, Aug 18, 2026)",
+              "href": "evidence/standard-2/ic-workshop-certificate-weimann.pdf",
+              "teacher": "Steven Weimann"
+            }
+          ],
+          "groupBy": "teacher"
         },
         {
           "nums": [
